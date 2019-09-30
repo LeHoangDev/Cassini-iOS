@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C80A217B233B959A00ABE536 /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80A217A233B959A00ABE536 /* CassiniViewController.swift */; };
 		C8DCE13C233B5D6800B3A02A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DCE13B233B5D6800B3A02A /* AppDelegate.swift */; };
 		C8DCE141233B5D6800B3A02A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8DCE13F233B5D6800B3A02A /* Main.storyboard */; };
 		C8DCE143233B5D6B00B3A02A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8DCE142233B5D6B00B3A02A /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C80A217A233B959A00ABE536 /* CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 		C8DCE138233B5D6800B3A02A /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8DCE13B233B5D6800B3A02A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8DCE140233B5D6800B3A02A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				C8DCE14D233B5EF700B3A02A /* Supporting Files */,
 				C8DCE142233B5D6B00B3A02A /* Assets.xcassets */,
 				C8DCE147233B5D6B00B3A02A /* Info.plist */,
+				C80A217A233B959A00ABE536 /* CassiniViewController.swift */,
 			);
 			path = Cassini;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				C8DCE14F233B5F6000B3A02A /* ImageViewController.swift in Sources */,
 				C8DCE13C233B5D6800B3A02A /* AppDelegate.swift in Sources */,
 				C8DCE153233B677F00B3A02A /* DemoURLs.swift in Sources */,
+				C80A217B233B959A00ABE536 /* CassiniViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +233,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -284,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
